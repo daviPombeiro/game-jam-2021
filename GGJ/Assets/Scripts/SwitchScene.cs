@@ -9,6 +9,7 @@ public class SwitchScene : MonoBehaviour {
     }
     public void Restart() {
         SceneManager.LoadScene("StartScene");
+        Score.scoreValue = 0;
     }
     
 }
