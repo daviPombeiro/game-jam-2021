@@ -22,7 +22,7 @@ ENG - You work on a lost property office, and all the people who show up don't r
 
 ### ✏️ Artistas/Designers
 - [Anna Rincoski](https://www.linkedin.com/in/anna-paula-rincoski-2310a4204/)
-- [Jéssica Azevedo]()
+- [Jéssica Azevedo](https://www.instagram.com/creatordesignjess/)
 - [Miguel Luz](https://www.artstation.com/migluzart)
 
 ### 🎵 Músicos
