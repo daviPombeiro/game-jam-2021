@@ -13,7 +13,7 @@ ENG - You work on a lost property office, and all the people who show up don't r
 - [Unity](https://unity.com/pt)
 
 
-## ✨ Equipe
+## ✨ Equipe owa-owa
 
 ### 💻 Desenvolvedores
 - [Carolina Yasue](https://github.com/Carolys)
