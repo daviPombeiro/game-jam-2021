@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -9,18 +10,24 @@ public class Organizer {
 
     private int index1, index2;
 
-    public Organizer (List<string> descriptions, List<string> wrongSentences, List<GameObject> objs,
-    List<GameObject> facesImg) {
-        items.Add(new Item(descriptions[0], objs[0]));
-        items.Add(new Item(descriptions[1], objs[1]));
-        items.Add(new Item(descriptions[2], objs[2]));
+    public Organizer (List<string> descriptions, List<string> wrongSentences, List<Sprite> sprites,
+    List<GameObject> facesImg, List<GameObject> btns) {
+        for(int a = 0; a < facesImg.Count; a++){
+            faces.Add(new Client(facesImg[a], wrongSentences[a]));
+            faces[a].Face.SetActive(false);
+        }
 
-        faces.Add(new Client(facesImg[0], wrongSentences[0]));
-        faces.Add(new Client(facesImg[1], wrongSentences[1]));
-        faces.Add(new Client(facesImg[2], wrongSentences[2]));
+        while (sprites.Count > 0 && btns.Count > 0) {
+            index1 = Random.Range(0, sprites.Count);
+            index2 = Random.Range(0, btns.Count);
 
-        for (int i = 0; i < faces.Count; i++) {
-            faces[i].Face.SetActive(false);
+            btns[index2].GetComponent<Image>().sprite = sprites[index1];
+
+            items.Add(new Item(descriptions[index1], btns[index2]));
+
+            sprites.RemoveAt(index1);
+            descriptions.RemoveAt(index1);
+            btns.RemoveAt(index2);
         }
 
         while (faces.Count > 0 && items.Count > 0) {

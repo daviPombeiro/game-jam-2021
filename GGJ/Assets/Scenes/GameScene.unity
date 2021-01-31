@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.89411765, g: 0.8901961, b: 0.9254902, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -809,7 +809,7 @@ MonoBehaviour:
   - "N\xE3o foi isso que eu pedi"
   - "Acho que n\xE3o \xE9 isso"
   - "N\xE3o lembro de ter perdido isso"
-  objs:
+  btns:
   - {fileID: 259965663}
   - {fileID: 332915019}
   - {fileID: 949615749}
@@ -817,6 +817,10 @@ MonoBehaviour:
   - {fileID: 1584859934}
   - {fileID: 1081043881}
   - {fileID: 1767010699}
+  sprites:
+  - {fileID: 21300000, guid: c5d6f06d570b89d47802af14472804b7, type: 3}
+  - {fileID: 21300000, guid: 9ef6ed5a670c9804dab6c9a9f26686d1, type: 3}
+  - {fileID: 21300000, guid: 9750658aeec43394faf7997555881b3e, type: 3}
 --- !u!1 &817055775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.89411765, g: 0.8901961, b: 0.9254902, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
