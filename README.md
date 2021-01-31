@@ -12,8 +12,22 @@ ENG - You work on a lost property office, and all the people who show up don't r
 
 - [Unity](https://unity.com/pt)
 
+
+## ✨ Equipe
+
+### 💻 Desenvolvedores
+- [Carolina Yasue](https://github.com/Carolys)
+- [Davi Pombeiro](https://github.com/daviPombeiro)
+- [Meika Oliveira](https://github.com/olvrmei)
+
+### ✏️ Artistas/Designers
+- [Anna Rincoski]()
+- [Jéssica Azevedo]()
+- [Miguel Luz](artstation.com/migluzart)
+
+### 🎵 Músicos
+- [Leonardo Lima](https://vimeo.com/showcase/8053481)
+
 ---
 
-<p align="center">Desenvolvido com 💜 por Anna Rincoski, Carolina Yasue, Davi Pombeiro,</p>
-<p align="center">Jéssica Azevedo, Leonardo Lima, Meika Oliveira, Miguel Luz</p>
 <p align="center">Global Game Jam 2021</p>
