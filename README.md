@@ -14,6 +14,6 @@ ENG - You work on a lost property office, and all the people who show up don't r
 
 ---
 
-<p align="center">Desenvolvido com 💜 por na Global Game Jam 2021</p>
-<p align="center">Anna Rincoski, Carolina Yasue, Davi Pombeiro, Jéssica Azevedo, Meika Oliveira, Miguel Luz</p>
+<p align="center">Desenvolvido com 💜 por Anna Rincoski, Carolina Yasue, Davi Pombeiro,</p>
+<p align="center">Jéssica Azevedo, Leonardo Lima, Meika Oliveira, Miguel Luz</p>
 <p align="center">Global Game Jam 2021</p>
